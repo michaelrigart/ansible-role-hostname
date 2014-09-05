@@ -1,0 +1,6 @@
+---
+
+- name: set machine hostname
+  hostname:
+    name: '{{ hostname_custom_name|default(inventory_hostname_short) }}'
+  tags: configuration
