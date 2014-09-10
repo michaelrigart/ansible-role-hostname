@@ -14,7 +14,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: michaelrigart.hostname, hostname_custom_name: custom_name }
+         - { role: MichaelRigart.hostname, hostname_custom_name: custom_name }
 
 License
 -------
